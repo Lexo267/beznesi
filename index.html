@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ბიზნეს ადმინისტრირების კარიერა</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content container">
+            <h1>ბიზნეს ადმინისტრირების კარიერული გზები</h1>
+            <p>გაიცანით თქვენი მომავალი ბიზნეს მენეჯმენტში</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="graph-container" id="main-graph">
+            <h2>აირჩიეთ სპეციალიზაცია</h2>
+            <p>დააწკაპუნეთ სასურველ გზაზე, რომ გაეცნოთ კარიერულ შესაძლებლობებს, ხელფასებს და განათლების მოთხოვნებს</p>
+            
+            <div class="career-graph">
+                <div class="career-path" onclick="showInfo('marketing')">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>მარკეტინგი</h3>
+                    <p>ბრენდ მენეჯმენტი, ციფრული მარკეტინგი</p>
+                </div>
+                
+                <div class="career-path" onclick="showInfo('entrepreneurship')">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>ენტერპრენერობა</h3>
+                    <p>სტარტაპები, ბიზნეს განვითარება</p>
+                </div>
+                
+                <div class="career-path" onclick="showInfo('hr')">
+                    <i class="fas fa-users"></i>
+                    <h3>HR მენეჯმენტი</h3>
+                    <p>ტალანტების მოძიება, ორგანიზაციული განვითარება</p>
+                </div>
+                
+                <div class="career-path" onclick="showInfo('finance')">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>ფინანსური აღრიცხვა</h3>
+                    <p>კორპორატიული ფინანსები, ინვესტიციების ანალიზი</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- მარკეტინგის ინფო სექცია -->
+        <div class="info-section" id="marketing-info">
+            <h2>მარკეტინგის კარიერული გზა</h2>
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="მარკეტინგის გუნდი" class="path-image">
+            <p>მარკეტინგის პროფესიონალები აანალიზებენ ბაზრის ტენდენციებს, ქმნიან ბრენდის სტრატეგიებს და კამპანიებს პროდუქტებისა და სერვისების პოპულარიზაციისთვის.</p>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>ინტერესები და უნარები</h3>
+                    <p>რა საგნებით უნდა იყოს დაინტერესებული:</p>
+                    <div class="interest-list">
+                        <span class="interest-tag">მარკეტინგი</span>
+                        <span class="interest-tag">ფსიქოლოგია</span>
+                        <span class="interest-tag">სტატისტიკა</span>
+                        <span class="interest-tag">კომუნიკაციები</span>
+                        <span class="interest-tag">კრეატიულობა</span>
+                    </div>
+                    <p>სასარგებლო ჰობი:</p>
+                    <ul class="university-list">
+                        <li>ფოტოგრაფია</li>
+                        <li>სოციალური მედიის მართვა</li>
+                        <li>კონტენტის შექმნა</li>
+                        <li>მარკეტინგის კონკურსებში მონაწილეობა</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>უნივერსიტეტები</h3>
+                    <img src="https://yt3.googleusercontent.com/Fv4nms3-A-cx4qA8LLlTqXqTdV-JH13v7S_lL4Uq1-K7cfebOwPcuIx7wUgbzQPMaueE78AA=s900-c-k-c0x00ffffff-no-rj" alt="ალტეს ლოგო" class="university-logo">
+                    <img src="https://navigator.ge/wp-content/uploads/2016/09/Logo-Iliauni.png" alt="ილიას უნივერსიტეტის ლოგო" class="university-logo">
+                    <p>საუკეთესო უნივერსიტეტები საქართველოში:</p>
+                    <ul class="university-list">
+                        <li>ალტე უნივერსიტეტი - პრაქტიკული ორიენტირებულობა სტარტაპების ინკუბატორით</li>
+                        <li>ილიას უნივერსიტეტი - ძლიერი თეორიული ბაზა</li>
+                        <li>KU - საერთაშორისო პარტნიორობები</li>
+                    </ul>
+                    <p>გლობალური ვარიანტები: ჰარვარდი, INSEAD, ლონდონის ეკონომიკის სკოლა</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>კარიერული შესაძლებლობები</h3>
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="მარკეტინგის შეხვედრა" class="path-image" style="height: 150px;">
+                    <ul class="university-list">
+                        <li>მარკეტინგის მენეჯერი</li>
+                        <li>ციფრული მარკეტინგის სპეციალისტი</li>
+                        <li>ბრენდ სტრატეგი</li>
+                        <li>ბაზრის კვლევის ანალიტიკოსი</li>
+                    </ul>
+                    <p>ხელფასის დიაპაზონი საქართველოში: <span class="salary-range">2,000-6,000 ლარი/თვეში</span></p>
+                    <p>გლობალური ხელფასები: $50,000-$120,000/წელიწადში</p>
+                </div>
+            </div>
+            
+            <div class="info-card">
+                <h3>ერთი დღე მარკეტინგის სპეციალისტის ცხოვრებაში</h3>
+                <div class="day-in-life">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>9:00 - 10:00</h4>
+                            <p>დილის შეხვედრა გუნდთან, კამპანიების სტატუსის განხილვა</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>10:00 - 12:00</h4>
+                            <p>ახალი მარკეტინგული კამპანიის სტრატეგიის შემუშავება</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>12:00 - 13:00</h4>
+                            <p>სოციალურ მედიაზე პოსტების მონიტორინგი და ანალიზი</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>14:00 - 16:00</h4>
+                            <p>კლიენტთან შეხვედრა ახალი პროდუქტის პრეზენტაციისთვის</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>16:00 - 18:00</h4>
+                            <p>მარკეტინგული ანალიტიკის მომზადება და ანგარიშის შედგენა</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-card success-story">
+                <h3>წარმატების ისტორია: ჯეფ ბეზოსი</h3>
+                <p>ამაზონის დამაარსებელი ჯეფ ბეზოსი დაიბადა 1964 წელს. მან დაიწყო კარიერა ფინანსურ სექტორში, მაგრამ მალე გააცნობიერა ინტერნეტის პოტენციალი. 1994 წელს მან დააარსა Amazon.com, როგორც ონლაინ წიგნების მაღაზია. მისი ბრენდის სტრატეგია და კლიენტზე ორიენტირებული მიდგომა გახდა Amazon-ის წარმატების საფუძველი. დღეს Amazon მსოფლიოში ერთ-ერთი ყველაზე ძვირადღირებული კომპანიაა.</p>
+            </div>
+            
+            <div class="info-card tips-section">
+                <h3>რა გავაკეთო სკოლის ასაკში?</h3>
+                <ul class="university-list">
+                    <li>ისწავლეთ ფოტოშოპის და სხვა დიზაინის პროგრამების საფუძვლები</li>
+                    <li>შექმენით ბლოგი ან YouTube არხი თქვენი ინტერესების შესახებ</li>
+                    <li>მონაწილეობა მიიღეთ სკოლის მარკეტინგულ პროექტებში</li>
+                    <li>ისწავლეთ Google Analytics და Ads საფუძვლები</li>
+                    <li>დაიწყეთ პორტფოლიოს შექმნა თქვენი პროექტებისთვის</li>
+                </ul>
+            </div>
+            
+            <div class="back-btn" onclick="hideInfo('marketing-info')">სპეციალიზაციებზე დაბრუნება</div>
+        </div>
+        
+        <!-- ენტერპრენერობის ინფო სექცია -->
+        <div class="info-section" id="entrepreneurship-info">
+            <h2>ენტერპრენერობის კარიერული გზა</h2>
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="სტარტაპის გუნდი" class="path-image">
+            <p>ენტერპრენერები ადგენენ ბიზნეს შესაძლებლობებს, ქმნიან ინოვაციურ გადაწყვეტილებებს და აშენებენ კომპანიებს ნულიდან.</p>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>ინტერესები და უნარები</h3>
+                    <p>რა საგნებით უნდა იყოს დაინტერესებული:</p>
+                    <div class="interest-list">
+                        <span class="interest-tag">ბიზნესი</span>
+                        <span class="interest-tag">ეკონომიკა</span>
+                        <span class="interest-tag">ტექნოლოგიები</span>
+                        <span class="interest-tag">პრობლემების გადაჭრა</span>
+                        <span class="interest-tag">ლიდერობა</span>
+                    </div>
+                    <p>სასარგებლო ჰობი:</p>
+                    <ul class="university-list">
+                        <li>ბიზნეს კონკურსებში მონაწილეობა</li>
+                        <li>მცირე ბიზნესის წამოწყება (მაგ. dropshipping)</li>
+                        <li>სტარტაპების შესახებ წაკითხვა</li>
+                        <li>ინოვაციური პროექტების განვითარება</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>უნივერსიტეტები</h3>
+                    <img src="https://yt3.googleusercontent.com/Fv4nms3-A-cx4qA8LLlTqXqTdV-JH13v7S_lL4Uq1-K7cfebOwPcuIx7wUgbzQPMaueE78AA=s900-c-k-c0x00ffffff-no-rj" alt="ალტეს ლოგო" class="university-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/ka/1/1b/FreeUniLogo.png" alt="თავისუფალი უნივერსიტეტის ლოგო" class="university-logo">
+                    <p>საუკეთესო პროგრამები საქართველოში:</p>
+                    <ul class="university-list">
+                        <li>ალტე უნივერსიტეტი - სტარტაპების აქსელერატორი</li>
+                        <li>თავისუფალი უნივერსიტეტი - ბიზნესის საფუძვლები</li>
+                        <li>ქართულ-ამერიკული უნივერსიტეტი - საერთაშორისო ორიენტირებულობა</li>
+                    </ul>
+                    <p>გლობალური ლიდერები: სტენფორდი, MIT, Babson College</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>კარიერული შესაძლებლობები</h3>
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="ანტერპრენერები" class="path-image" style="height: 150px;">
+                    <ul class="university-list">
+                        <li>სტარტაპის დამაარსებელი</li>
+                        <li>ბიზნეს განვითარების მენეჯერი</li>
+                        <li>ინოვაციების კონსულტანტი</li>
+                        <li>ვენჩურ კაპიტალის ასოციატი</li>
+                    </ul>
+                    <p>შემოსავალი მერყეობს - წარმატებული ანტერპრენერები შეიძლება გამოიმუშავონ <span class="salary-range">50,000+ ლარი/თვეში</span></p>
+                    <p>საშუალო სტარტაპის ხელფასები: 3,000-8,000 ლარი/თვეში</p>
+                </div>
+            </div>
+            
+            <div class="info-card">
+                <h3>ერთი დღე ანტერპრენერის ცხოვრებაში</h3>
+                <div class="day-in-life">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>8:00 - 9:00</h4>
+                            <p>ბიზნესის მიმდინარე მდგომარეობის ანალიზი, ძირითადი მეტრიკების განხილვა</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>9:00 - 11:00</h4>
+                            <p>ინვესტორებთან შეხვედრა ან პრეზენტაციის მომზადება</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>11:00 - 13:00</h4>
+                            <p>პროდუქტის გუნდთან შეხვედრა, ახალი ფუნქციონალის განხილვა</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>14:00 - 16:00</h4>
+                            <p>ბიზნეს სტრატეგიის განახლება, კონკურენტების ანალიზი</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>16:00 - 18:00</h4>
+                            <p>შემოქმედებითი სესია ახალი იდეების გენერირებისთვის</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-card success-story">
+                <h3>წარმატების ისტორია: ელონ მასკი</h3>
+                <p>ელონ მასკი დაიბადა 1971 წელს სამხრეთ აფრიკაში. 12 წლის ასაკში მან გაყიდა თავისი პირველი ვიდეო თამაში. 1995 წელს მან დააარსა Zip2, რომელიც შემდგომში გაყიდა 307 მილიონ დოლარად. 1999 წელს მან დააარსა X.com, რომელიც შემდგომში PayPal-ად გადაიქცა. 2002 წელს მან დააარსა SpaceX, 2004 წელს გახდა Tesla-ს ინვესტორი და თავმჯდომარე. მისი მიზანმიმართულობა და ინოვაციური მიდგომა გახდა მისი კომპანიების წარმატების საფუძველი.</p>
+            </div>
+            <div class="info-card tips-section">
+                <h3>რა გავაკეთო სკოლის ასაკში?</h3>
+                <ul class="university-list">
+                    <li>დაიწყეთ მცირე ბიზნესი (მაგ. ხელნაკეთობების გაყიდვა, ტუტორინგი)</li>
+                    <li>მონაწილეობა მიიღეთ ბიზნეს კონკურსებში</li>
+                    <li>ისწავლეთ პროგრამირების საფუძვლები</li>
+                    <li>წაიკითხეთ წარმატებული ენტერპრენერების ბიოგრაფიები</li>
+                    <li>გაიცანით სხვა ახალგაზრდა ენტერპრენერები</li>
+                </ul>
+            </div>
+            
+            <div class="back-btn" onclick="hideInfo('entrepreneurship-info')">სპეციალიზაციებზე დაბრუნება</div>
+        </div>
+        
+        <!-- HR მენეჯმენტის ინფო სექცია -->
+        <div class="info-section" id="hr-info">
+            <h2>ადამიანური რესურსების მენეჯმენტი</h2>
+            <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="HR ტრენინგი" class="path-image">
+            <p>HR პროფესიონალები ამზადებენ ტალანტებს, ქმნიან კომპანიის კულტურას და ახორციელებენ პოლიტიკას, რომელიც უზრუნველყოფს თანამშრომელთა ზრდას და ორგანიზაციულ წარმატებას.</p>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>ინტერესები და უნარები</h3>
+                    <p>რა საგნებით უნდა იყოს დაინტერესებული:</p>
+                    <div class="interest-list">
+                        <span class="interest-tag">ფსიქოლოგია</span>
+                        <span class="interest-tag">კომუნიკაციები</span>
+                        <span class="interest-tag">სოციოლოგია</span>
+                        <span class="interest-tag">ბიზნესი</span>
+                        <span class="interest-tag">კონფლიქტების მართვა</span>
+                    </div>
+                    <p>სასარგებლო ჰობი:</p>
+                    <ul class="university-list">
+                        <li>მოხალისეობა ღონისძიებებში</li>
+                        <li>ტრენინგების ჩატარება</li>
+                        <li>ინტერვიუების სიმულაცია</li>
+                        <li>ფსიქოლოგიის წიგნების კითხვა</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>უნივერსიტეტები</h3>
+                    <img src="https://navigator.ge/wp-content/uploads/2016/09/Logo-Iliauni.png" alt="ილიას უნივერსიტეტის ლოგო" class="university-logo">
+                    <img src="https://cdn.08.ge/logos/83043.jpg" alt="კავკასიის უნივერსიტეტის ლოგო" class="university-logo">
+                    <p>რეკომენდებული პროგრამები:</p>
+                    <ul class="university-list">
+                        <li>ილიას უნივერსიტეტი - ყოვლისმომცველი HR პროგრამა</li>
+                        <li>კავკასიის უნივერსიტეტი - პრაქტიკული HR ტრენინგი</li>
+                        <li>ალტე უნივერსიტეტი - თანამედროვე HR ტექნოლოგიები</li>
+                    </ul>
+                    <p>გლობალური ვარიანტები: კორნელი, მიჩიგანის უნივერსიტეტი, LSE</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>კარიერული შესაძლებლობები</h3>
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="HR ინტერვიუ" class="path-image" style="height: 150px;">
+                    <ul class="university-list">
+                        <li>HR მენეჯერი</li>
+                        <li>რეკრუტმენტის სპეციალისტი</li>
+                        <li>ტრენინგის კოორდინატორი</li>
+                        <li>ორგანიზაციული განვითარების კონსულტანტი</li>
+                    </ul>
+                    <p>ხელფასის დიაპაზონი საქართველოში: <span class="salary-range">2,500-7,000 ლარი/თვეში</span></p>
+                    <p>გლობალური ხელფასები: $60,000-$150,000/წელიწადში</p>
+                </div>
+            </div>
+            
+            <div class="info-card">
+                <h3>ერთი დღე HR სპეციალისტის ცხოვრებაში</h3>
+                <div class="day-in-life">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>9:00 - 10:30</h4>
+                            <p>ახალი ვაკანსიების განხილვა და სამუშაო აღწერების მომზადება</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>10:30 - 12:00</h4>
+                            <p>კანდიდატებთან ინტერვიუების ჩატარება</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>12:00 - 13:00</h4>
+                            <p>თანამშრომელთა კითხვებისა და პრობლემების მოსმენა</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>14:00 - 15:30</h4>
+                            <p>ტრენინგის ორგანიზება ან ჩატარება</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>15:30 - 17:00</h4>
+                            <p>შესრულების შეფასების პროცესის მართვა</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-card success-story">
+                <h3>წარმატების ისტორია: შერილ სენდბერგი</h3>
+                <p>შერილ სენდბერგი, Facebook-ის COO, დაიწყო კარიერა მსოფლიო ბანკში, შემდეგ იმუშავა აშშ-ის ხაზინის მდივნის მოადგილედ. 2008 წელს იგი გახდა Facebook-ის ოპერაციული დირექტორი, სადაც მან შექმნა კომპანიის HR პოლიტიკა და კულტურა, რამაც დიდი როლი ითამაშა კომპანიის წარმატებაში. მისი წიგნი "Lean In" გახდა ბესტსელერი ქალთა ლიდერობის შესახებ.</p>
+            </div>
+            
+            <div class="info-card tips-section">
+                <h3>რა გავაკეთო სკოლის ასაკში?</h3>
+                <ul class="university-list">
+                    <li>მონაწილეობა მიიღეთ სკოლის სტუდენტურ თვითმმართველობაში</li>
+                    <li>ისწავლეთ კონფლიქტების მოგვარების ტექნიკები</li>
+                    <li>დაიწყეთ ფსიქოლოგიის საფუძვლების შესწავლა</li>
+                    <li>მოამზადეთ სიმულაციური ინტერვიუები მეგობრებისთვის</li>
+                    <li>გაიცანით სხვადასხვა პროფესიის ადამიანები</li>
+                </ul>
+            </div>
+            
+            <div class="back-btn" onclick="hideInfo('hr-info')">სპეციალიზაციებზე დაბრუნება</div>
+        </div>
+        
+        <!-- ფინანსური აღრიცხვის ინფო სექცია -->
+        <div class="info-section" id="finance-info">
+            <h2>ფინანსური აღრიცხვის კარიერული გზა</h2>
+            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="ფინანსური ანალიზი" class="path-image">
+            <p>ფინანსისტები აანალიზებენ მონაცემებს, ამზადებენ ანგარიშებს და უზრუნველყოფენ ინფორმაციას ბიზნესის გადაწყვეტილებების მისაღებად და ფისკალური პასუხისმგებლობისთვის.</p>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>ინტერესები და უნარები</h3>
+                    <p>რა საგნებით უნდა იყოს დაინტერესებული:</p>
+                    <div class="interest-list">
+                        <span class="interest-tag">მათემატიკა</span>
+                        <span class="interest-tag">ეკონომიკა</span>
+                        <span class="interest-tag">სტატისტიკა</span>
+                        <span class="interest-tag">ანალიტიკა</span>
+                        <span class="interest-tag">დეტალებზე ყურადღება</span>
+                    </div>
+                    <p>სასარგებლო ჰობი:</p>
+                    <ul class="university-list">
+                        <li>პირადი ბიუჯეტის მართვა</li>
+                        <li>ინვესტიციების სიმულაცია</li>
+                        <li>ბუღალტრული პროგრამების შესწავლა</li>
+                        <li>ეკონომიკური ახალი ამბების კითხვა</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>უნივერსიტეტები</h3>
+                    <img src="https://www.tsu.ge/assets/themes/tsu/assets/img/logo.png" alt="თსუ ლოგო" class="university-logo">
+                    <img src="https://lh6.googleusercontent.com/proxy/oIdGOd4GUcnOBZpxwF9EwEuEmoUJ38WOZBVwq0gDJhKXVUv4IO7fhgY248-ADJ_aLHUYlB9qPd-oCYoK5fQOOZGgHMbSrpTnjLCzYWh-rSIK3XW1fur5wZyh" alt="ქართული ტექნიკური უნივერსიტეტის ლოგო" class="university-logo">
+                    <p>საუკეთესო აღრიცხვის პროგრამები:</p>
+                    <ul class="university-list">
+                        <li>თბილისის სახელმწიფო უნივერსიტეტი - ძლიერი თეორიული ბაზა</li>
+                        <li>ალტე უნივერსიტეტი - პრაქტიკული აღრიცხვის პროგრამები</li>
+                        <li>ქართული ტექნიკური უნივერსიტეტი - ტექნიკური ორიენტირებულობა</li>
+                    </ul>
+                    <p>გლობალური ლიდერები: პენსილვანიის უნივერსიტეტი, ჩიკაგოს უნივერსიტეტი, ბოკონი</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>კარიერული შესაძლებლობები</h3>
+                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="ფინანსური შეხვედრა" class="path-image" style="height: 150px;">
+                    <ul class="university-list">
+                        <li>ფინანსური ანალიტიკოსი</li>
+                        <li>ბუღალტერი</li>
+                        <li>აუდიტორი</li>
+                        <li>ფინანსური დირექტორი (CFO)</li>
+                        <li>ინვესტიციული ბანკირი</li>
+                    </ul>
+                    <p>ხელფასის დიაპაზონი საქართველოში: <span class="salary-range">3,000-10,000 ლარი/თვეში</span></p>
+                    <p>გლობალური ხელფასები: $70,000-$200,000/წელიწადში</p>
+                </div>
+            </div>
+            
+            <div class="info-card">
+                <h3>ერთი დღე ფინანსისტის ცხოვრებაში</h3>
+                <div class="day-in-life">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>8:30 - 10:00</h4>
+                            <p>ფინანსური ანგარიშების მიმოხილვა და განახლება</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>10:00 - 12:00</h4>
+                            <p>ბიუჯეტის მომზადება და ფინანსური პროგნოზირება</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>12:00 - 13:00</h4>
+                            <p>გადასახადების გაანგარიშება და დეკლარაციების მომზადება</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>14:00 - 15:30</h4>
+                            <p>მენეჯმენტთან შეხვედრა ფინანსური მდგომარეობის შესახებ</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>15:30 - 17:00</h4>
+                            <p>ინვესტიციების ანალიზი და რეკომენდაციების მომზადება</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-card success-story">
+                <h3>წარმატების ისტორია: უორენ ბაფეტი</h3>
+                <p>უორენ ბაფეტი, Berkshire Hathaway-ის თავმჯდომარე და CEO, დაიბადა 1930 წელს. 11 წლის ასაკში მან ყიდა თავისი პირველი აქციები. ნებრასკის უნივერსიტეტში სწავლის შემდეგ, მან დაიწყო მუშაობა ინვესტიციების სფეროში. მისი ღირებულებაზე დაფუძნებული ინვესტირების სტრატეგია და ფინანსური ანალიზის უნარი მას მსოფლიოში ერთ-ერთ ყველაზე წარმატებულ ინვესტორად აქცევს.</p>
+            </div>
+            
+            <div class="info-card tips-section">
+                <h3>რა გავაკეთო სკოლის ასაკში?</h3>
+                <ul class="university-list">
+                    <li>ისწავლეთ Excel-ის და ფინანსური პროგრამების საფუძვლები</li>
+                    <li>დაიწყეთ პირადი ბიუჯეტის შენახვა</li>
+                    <li>გაიარეთ ფინანსური გრამატიანობის კურსები</li>
+                    <li>ითამაშეთ სტოკების ბირჟის სიმულაციური თამაშები</li>
+                    <li>წაიკითხეთ ფინანსური ანგარიშების ანალიზის საფუძვლები</li>
+                </ul>
+            </div>
+            
+            <div class="back-btn" onclick="hideInfo('finance-info')">სპეციალიზაციებზე დაბრუნება</div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 ბიზნეს ადმინისტრირების კარიერული გზები | შექმნილია საგანმანათლებლო მიზნებისთვის</p>
+            <p>კონტაქტი: info@businesscareers.ge</p>
+        </div>
+    </footer>
+    
+    <script>
+        function showInfo(specialization) {
+            document.getElementById('main-graph').style.display = 'none';
+            document.getElementById(specialization + '-info').style.display = 'block';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        function hideInfo(sectionId) {
+            document.getElementById(sectionId).style.display = 'none';
+            document.getElementById('main-graph').style.display = 'block';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
